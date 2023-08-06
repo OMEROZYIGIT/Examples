@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3d49b7-01e1-41f3-bab3-bb1384c3dba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/soru11.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b3d49b7-01e1-41f3-bab3-bb1384c3dba4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +26,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RecentsManager">
