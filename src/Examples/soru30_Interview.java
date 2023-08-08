@@ -11,5 +11,10 @@ public class soru30_Interview {
         Yinelenen karakterler : [a, o, k]
         İpucu: İçiçe for looplar, String Manupulations ve if ler kullanrak çözebilrsiniz.
          */
+
+        String str = "Javacokkolay";
+
+
+
     }
 }

@@ -11,9 +11,11 @@ public class soru07 {
         ( Data Casting -> Auto Widening ve Explicit Narrowing )
      */
     public static void main(String[] args) {
+
         Scanner scanner= new Scanner(System.in);
         System.out.println("Lutfen double bir sayi giriniz: ");
         double sayi = scanner.nextDouble();
+
         int sayi1 = (int)sayi;
         System.out.println(sayi1);
 

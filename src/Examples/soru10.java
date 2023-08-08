@@ -29,17 +29,18 @@ public class soru10 {
         System.out.println("Lutfen boyunuzu metre olarak giriniz: ");
         double boy = scanner.nextDouble();
 
-        double vke = kilo*10000 / (boy * boy);
+        int vke = (int)kilo / (int)(boy * boy);
         System.out.println("Vücut Kitle İndeksiniz: " + vke);
 
         if (vke < 18.5) {
             System.out.println("zayıfsınız");
         } else if (vke >= 18.5 || vke < 25) {
             System.out.println("kilo idealdir");
-        }else if (vke>=25 || vke<30){
+        }else if (vke >= 25 || vke < 30){
             System.out.println("şişmansınız");
-        }else if (vke>=30){
+        }else {
             System.out.println("agam obezsin, diyet yap!");
+
         }
     }
 }

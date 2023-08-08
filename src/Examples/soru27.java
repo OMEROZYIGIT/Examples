@@ -11,5 +11,12 @@ public class soru27 {
         Ascii value of c = 99
         Ascii value of d = 100
          */
+
+        char harf = 'a';
+
+        for (int i = 1; i <= 26 ; i++) {
+            System.out.println(harf + " " + (int)harf);
+            harf ++;
+        }
     }
 }

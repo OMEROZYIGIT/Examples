@@ -33,7 +33,7 @@ Ipucu: If Else ve String Manipulation konusunu hatırlayalım!  Substring,concat
             String yeniIsim = isim1.substring(0, ortaIndex) + isim2 + isim1.substring(ortaIndex);
             System.out.println("Yeni İsim: " + yeniIsim);
         } else {
-            // İsim1 tek sayıda karaktere sahipse, işlem yapılamaz.
+            // İsim1 tek sayıda karaktere sahipse, işlem yapılamaz..
             System.out.println("isim2, isim1'e eklenemez");
         }
 

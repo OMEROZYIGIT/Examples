@@ -16,6 +16,7 @@ public class soru01 {
         double pi = 3.14;
         double cevre = 2*pi*yariCap;
         System.out.println(cevre);
+
         double alan = pi*yariCap*yariCap;
         System.out.println(alan);
     }

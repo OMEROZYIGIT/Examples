@@ -8,5 +8,11 @@ public class soru32 {
         İpucu:  int arrReverse[] diye bir array oluşturun
         ve kullancıya oluşturdugunuz arrayi buna tersten assign edin.
          */
+
+        int[] arr = {3, 4, 6, 8, 1};
+        int[] arrReverse = new int[arr.length];
+
+
+
     }
 }

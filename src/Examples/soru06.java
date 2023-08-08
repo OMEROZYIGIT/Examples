@@ -14,14 +14,16 @@ public class soru06 {
         Scanner scanner1 =new Scanner(System.in);
         System.out.println("Lutfen günde kaç bardak cay ictiginizi yaziniz: ");
         int cay = scanner1.nextInt();
+
         Scanner scanner2 =new Scanner(System.in);
         System.out.println("Lutfen caya kac kadar seker kullandıgınızı yaziniz: ");
         double seker = scanner2.nextInt();
+
         double yillikCay  = cay*30*12;
         System.out.println("Yilda "+ yillikCay+ " bardak cay iciyorsunuz.");
+
         double yillikSeker = 1.5*seker*30*12/1000;
         System.out.println("Yilda "+ yillikSeker+" kg seker tuketiyorsunuz. ");
-
 
     }
 }

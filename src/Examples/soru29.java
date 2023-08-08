@@ -8,5 +8,12 @@ public class soru29 {
         İpucu: Loop kulanabilirsiniz
          */
 
+        int toplam = 0;
+
+        for (int i = 1; i < 100; i++) {
+             toplam += i;
+
+        }
+        System.out.println("1 den 100e kadar olan sayıların toplamı: "+toplam);
     }
 }

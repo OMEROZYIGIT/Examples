@@ -12,8 +12,9 @@ public class soru02 {
         int knr1=10;
         int knr2=5;
         int dikdortgenCevre=2*(knr2+knr1);
-        System.out.println(dikdortgenCevre);
+        System.out.println("Dikdörtgenin çevresi: " + dikdortgenCevre);
+
         int dikdortgenAlan=knr1*knr2;
-        System.out.println(dikdortgenAlan);
+        System.out.println("Dikdörtgenin alanı: " + dikdortgenAlan);
     }
 }

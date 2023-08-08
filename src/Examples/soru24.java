@@ -9,5 +9,11 @@ public class soru24 {
         ipucu:
         Loop içinde if kullanarak çözebilirsiniz. % kullanmak iyi bir fikir olabilir
          */
+
+        for (int i = 20; i >= 0 ; i--) {
+            if (i % 2 == 0){
+                System.out.print(i+" ");
+            }
+        }
     }
 }

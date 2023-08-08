@@ -24,14 +24,33 @@ public class soru22 {
         int sayi1 = scanner.nextInt();
         int sayi2 = scanner.nextInt();
         int ebob = 0;
+        int ekok = 1;
 
-        for (int i = 1; i < sayi1; i++) {
-            if (sayi1 % i == 0 && sayi2 % i == 0) {
-                ebob = i;
+        System.out.println(ebobhesapla(sayi1, sayi2));
+        System.out.println(ekokHesaplama(sayi1, sayi2));
+
+        for (int i = 2; i < sayi1; i++) {
+            for (int j = 2; j < sayi2; j++) {
+                if (sayi1 % i == 0 && sayi2 % i == 0) {
+                    ebob = i;
+                    break;
+                }
+                ekok = sayi1*sayi2;
             }
-
         }
-
+        System.out.println("En büyük ortak böleni: " +ebob);
+        System.out.println("En küçük ortak katı: " +ekok);
+    }
+    public static int ebobhesapla (int sayi1,int sayi2){
+        while (sayi2 != 0){
+            int gecici = sayi2;
+            sayi2= sayi1% sayi2;
+            sayi1 = gecici;
+        }
+        return sayi1;
+    }
+    public static int ekokHesaplama (int sayi1, int sayi2){
+        return (sayi1 * sayi2)/ebobhesapla(sayi1,sayi2);
     }
 }
 

@@ -12,11 +12,11 @@ public class soru05 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen karenin bir kenar uzunlugunu girin: ");
         double kenar = scanner.nextDouble();
+
         double cevre = kenar*4;
         double alan = kenar*kenar;
-        System.out.println(alan);
-
-
+        System.out.println("Karenin alanı: "+alan);
+        System.out.println("Karenin çevresi: "+cevre);
 
     }
 }

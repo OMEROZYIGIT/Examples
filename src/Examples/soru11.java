@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class soru11 {
     /*
-    Soru 11-) Kullanıcıya Adını, Soyadını ve kredi kartı numaralarını sorup bunları özel forma dönüştürün.
-                Ad ve soyadın baş harfleri büyük olmalıdır.
+    Soru 11-)   Kullanıcıya Adını, Soyadını ve kredi kartı numaralarını sorup bunları özel forma dönüştürün.
+                Ad ve soyadın baş harfleri büyük olmalıdır. Geri kalan * olacak
                 Kredi kartı numarasını kontrol edin, 16 hane yoksa "Geçersiz kredi kartı numarası" yazdırın.
                 Kredi Kartı 16 Hane ise aşagıda belirtilen şekilde çıktı alın.
                 Ipucu: IF ile çözebilirsiniz.
@@ -16,8 +16,8 @@ public class soru11 {
 		                > CCN : **** **** 9632
      */
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Adınızı giriniz: ");
         String ad = scanner.next();
 
@@ -39,7 +39,7 @@ public class soru11 {
             String gizliKartNumarasi = "**** **** **** " + kartNumarasi.substring(12);
 
             // Sonuçları yazdır
-            System.out.println("İsim: " + ad.charAt(0) + "****** " + soyad.charAt(0) + "***");
+            System.out.println("İsim: " + ad.charAt(0) + "*** " + soyad.charAt(0) + "*****");
             System.out.println("CCN: " + gizliKartNumarasi);
         }
         scanner.close();
