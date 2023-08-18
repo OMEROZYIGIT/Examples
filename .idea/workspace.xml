@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3d49b7-01e1-41f3-bab3-bb1384c3dba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Examples/KullaniciGirisProgramı.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/Soru00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/CekilisEkrani.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/CekilisEkrani.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/WebSayfasi.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/WebSayfasi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Examples/Examples/soru32.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examples/Examples/soru32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Examples/FaizProgrami.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Examples/FaizProgrami.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Zenbook/IdeaProjects/Udemy"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zenbook\IdeaProjects\Examples\src\Examples" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Examples" />
     </key>
